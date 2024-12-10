@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Athletics Day Timetable</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      border: 2px solid gray;
+      width: 100%; /* Make the table full width */
+    }
+
+    th, td {
+      border: 1px solid gray;
+      padding: 5px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f2f2f2; /* Light gray background for headers */
+      font-weight: bold;
+    }
+
+    .time-slot {
+      width: 100px; /* Set a fixed width for the time slot columns */
+    }
+  </style>
+</head>
+<body>
+  <h1>Athletics Day Timetable</h1>
+
+  <table>
+    <tr>
+      <th rowspan="2">Area</th>
+      <th colspan="6">Time</th>
+    </tr>
+    <tr>
+      <th class="time-slot">10am-11am</th>
+      <th class="time-slot">11am-12pm</th>
+      <th class="time-slot">12pm-1pm</th>
+      <th class="time-slot">1pm-2pm</th>
+      <th class="time-slot">2pm-3pm</th>
+    </tr>
+    <tr>
+      <td rowspan="2">Track</td>
+      <td>400m<br>Hurdles</td>
+      <td>200m<br>1500m</td>
+      <td>Lunch</td>
+      <td>Free</td>
+      <td>100m<br>80m</td>
+    </tr>
+    <tr>
+      <td>Discus</td>
+      <td>Javelin</td>
+      <td>Shot put</td>
+      <td>Hammer throw</td>
+    </tr>
+  </table>
+</body>
+</html>
